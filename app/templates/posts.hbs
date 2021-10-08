@@ -1,0 +1,5 @@
+<h1>This is Posts Page!</h1>
+<LinkTo @route="/"><h2>Index Page!</h2></LinkTo>
+{{#each @model as |one|}}
+<h2>{{one.title}}</h2>
+{{/each}}
